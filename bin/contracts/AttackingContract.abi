@@ -1,0 +1,1 @@
+[{"stateMutability":"nonpayable","type":"fallback"},{"inputs":[{"internalType":"address","name":"myContractAddress","type":"address"}],"name":"attackingContract","outputs":[],"stateMutability":"nonpayable","type":"function"}]
