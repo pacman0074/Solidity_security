@@ -9,7 +9,7 @@ contract MyContract {
         owner = msg.sender;
     }
 
-    function sendTo(address receiver, uint amount) public {
+    function sendTo(address payable receiver, uint amount) public {
         require(tx.origin == owner);
         (bool success, ) = receiver.call{value:amount}("");
         require(success);
@@ -20,11 +20,11 @@ contract MyContract {
 contract AttackingContract {
 
     MyContract myContract;
-    address attacker;
+    address payable attacker;
 
     function attackingContract(address myContractAddress) public {
         myContract = MyContract(myContractAddress);
-        attacker = msg.sender;
+        attacker = payable(msg.sender);
     }
 
     fallback() external {

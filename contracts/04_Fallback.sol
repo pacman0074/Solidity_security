@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.12;
 
-contract SendEtherGood{
+contract SendEtherGoodWay{
 
 event LogDepositReceived(address sender);
 mapping (address => uint256) balances;
@@ -10,7 +10,7 @@ fallback() external payable { balances[msg.sender] += msg.value; }
 
 }
 
-contract SendEtherBad{
+contract SendEtherBadWay{
 
 event LogDepositReceived(address sender);
 mapping (address => uint256) balances;
@@ -18,6 +18,7 @@ mapping (address => uint256) balances;
 function deposit() payable external { balances[msg.sender] += msg.value; }
 
 fallback() external payable { require(msg.data.length == 0); emit LogDepositReceived(msg.sender); }
+receive() external payable{}
 
 }
 
