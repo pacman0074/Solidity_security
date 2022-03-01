@@ -1,0 +1,1 @@
+[{"inputs":[{"internalType":"address","name":"c","type":"address"}],"name":"ping","outputs":[],"stateMutability":"nonpayable","type":"function"}]

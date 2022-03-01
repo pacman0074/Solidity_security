@@ -12,7 +12,7 @@ const AttackingContract = artifacts.require("AttackingContract");
 module.exports = function(deployer) {
     deployer.deploy(Vulnerable);
     deployer.deploy(Fixed);
-    deployer.deplopy(Destructor);
+    deployer.deploy(Destructor);
     deployer.deploy(Worker);
     deployer.deploy(Registry);
     deployer.deploy(Election);

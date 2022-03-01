@@ -12,6 +12,11 @@ contract MyContract {
 
     }
 
+    
+    function block() external view returns(uint){
+        return block.timestamp;
+    }
+
     function sendTo(address payable receiver, uint amount) public {
         require(tx.origin == owner,"toto");
         (bool success, ) = receiver.call{value:amount}("");
