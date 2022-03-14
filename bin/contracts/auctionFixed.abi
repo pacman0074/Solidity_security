@@ -1,0 +1,1 @@
+[{"inputs":[],"name":"bid","outputs":[],"stateMutability":"payable","type":"function"},{"inputs":[],"name":"withdrawRefund","outputs":[],"stateMutability":"nonpayable","type":"function"}]

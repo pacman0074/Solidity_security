@@ -1,0 +1,1 @@
+[{"inputs":[{"internalType":"address","name":"auctionContract","type":"address"}],"name":"attackingContract","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[],"name":"auctionAttacked","outputs":[{"internalType":"contract auction","name":"","type":"address"}],"stateMutability":"view","type":"function"},{"stateMutability":"payable","type":"receive"}]
